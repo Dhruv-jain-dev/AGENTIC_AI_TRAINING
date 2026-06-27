@@ -1,3 +1,5 @@
 # Agentic AI Training Journey
 
-This repository documents my 6-week Agentic AI training journey. It includes daily learning reports, notes, assignments, and hands-on projects covering Agentic AI, Python, and software architecture. My goal is to track my progress and showcase my learning through consistent documentation.
+Welcome to my **6-week Agentic AI Training** repository! This repository documents my daily learning journey, including concepts, assignments, coding exercises, and hands-on projects related to Agentic AI, Python, and software architecture. 
+
+It serves as a record of my progress, helping me strengthen my understanding through consistent practice while showcasing my growth as I build real-world AI applications throughout the training.
