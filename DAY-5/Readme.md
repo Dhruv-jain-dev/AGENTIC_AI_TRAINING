@@ -4,7 +4,9 @@
 
 ## Overview
 
-The sixth day of the Agentic AI Training focused on understanding Python operators and conditional constructs. We explored the different categories of operators, their practical applications, and how they are used in programming. The session also covered decision-making using `if`, `elif`, and `else` statements. To reinforce these concepts, we were given a logical programming assignment involving brick placement.
+The fifth day of the Agentic AI Training focused on strengthening the fundamental programming concepts required for writing logical and efficient Python programs. The session began with an in-depth study of Python operators, where we explored their different categories, working principles, and practical applications. 
+
+We also gained an understanding of bitwise and shift operators, including their significance in low-level programming and security-related operations. Later, we learned how programs make decisions using conditional constructs such as `if`, `elif`, and `else`. The session concluded with a hands-on programming assignment that required us to apply loops, operators, variables, and conditional statements to solve a real-world logical problem involving brick placement.
 
 ---
 
