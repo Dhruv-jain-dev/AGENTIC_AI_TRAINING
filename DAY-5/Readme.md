@@ -1,4 +1,4 @@
-# Day 6 – Operators and Conditional Constructs in Python
+# Day 5 – Operators and Conditional Constructs in Python
 
 **Date:** 30 June 2026
 
