@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dhruv Jain's daily Agentic AI training journal." />
+  <meta name="theme-color" content="#07110d" />
+  <title>Agentic AI — Daily Field Notes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Home"><span class="brand-mark">D/J</span><span>Field Notes</span></a>
+    <nav>
+      <a href="#journal">Journal</a>
+      <a href="#about">About</a>
+      <a class="source-link" href="https://github.com/Dhruv-jain-dev/AGENTIC_AI_TRAINING" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> Learning in public · 6-week program</p>
+        <h1>Building intelligence,<br><em>one day at a time.</em></h1>
+        <p class="lede">A daily record of ideas, experiments, assignments, and small breakthroughs from my Agentic AI training journey.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#journal">Explore the journal <span>↓</span></a>
+          <span class="update" id="last-updated">Updated from GitHub</span>
+        </div>
+      </div>
+      <div class="orbit-card" aria-hidden="true">
+        <div class="orbit orbit-one"><i></i></div>
+        <div class="orbit orbit-two"><i></i></div>
+        <div class="core">AI<span>agent</span></div>
+        <span class="node n1">REASON</span><span class="node n2">ACT</span><span class="node n3">LEARN</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Journey statistics">
+      <div><strong id="day-count">06</strong><span>Days logged</span></div>
+      <div><strong id="topic-count">20+</strong><span>Concepts explored</span></div>
+      <div><strong>06</strong><span>Weeks to build</span></div>
+      <div><strong>∞</strong><span>Curiosity remaining</span></div>
+    </section>
+
+    <section class="journal" id="journal">
+      <div class="section-head">
+        <div><p class="eyebrow">The learning log</p><h2>Daily journal</h2></div>
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search notes & topics…" /></label>
+      </div>
+      <div class="journal-layout">
+        <aside><p class="aside-label">Timeline</p><div id="timeline"></div></aside>
+        <div id="report-list" class="report-list"></div>
+      </div>
+      <p class="empty" id="empty" hidden>No notes found. Try another search.</p>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">Why this exists</p>
+      <div class="about-grid">
+        <h2>Progress becomes visible when you <em>document the process.</em></h2>
+        <div><p>This journal captures my path through Agentic AI, Python, memory management, and software architecture—not as polished conclusions, but as an honest record of learning.</p><p>Each entry is written after the day’s training and published directly from the project repository.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Dhruv Jain</span><span>Learning · Building · Sharing</span><a href="#top">Back to top ↑</a></footer>
+  <dialog id="reader"><button class="close" aria-label="Close">×</button><article id="reader-content"></article></dialog>
+  <script src="reports.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
