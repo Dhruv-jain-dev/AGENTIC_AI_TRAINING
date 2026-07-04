@@ -1,6 +1,6 @@
 # Day 7 – Recursion, Searching & Sorting Techniques in Python
 
-**Date:** 2 July 2026
+**Date:** 3 July 2026
 
 ## Overview
 
