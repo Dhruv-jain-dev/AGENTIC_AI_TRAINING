@@ -32,12 +32,11 @@ class CircularDoublyLinkedList:
         
 
     def add_in_between(self, element, element1, element2):
-        self.size += 1
         element.previous_flight = element1
         element.next_flight = element2
         element1.next_flight = element
         element2.previous_flight = element
-        
+        self.size += 1    
 
     def delete_last(self):
         self.size -= 1

@@ -65,12 +65,7 @@ print('=========================================')
 # flight_list.show()
 # print('=========================================')
 
-# flight_list.delete(code= '6E2314',
-#     carrier= 'indigo',
-#     source= 'delhi',
-#     destination= 'bengaluru',
-#     fare= 2500,
-#     duration= 4)
+# flight_list.delete(Flight2)
 # print("-------After Deleting in Between----------")
 # flight_list.show()
 # print('=========================================')
