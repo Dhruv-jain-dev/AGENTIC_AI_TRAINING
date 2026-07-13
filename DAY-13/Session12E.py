@@ -16,3 +16,25 @@ class DBHelper:
     def save(self, document):
        inserted_id = self.collection.insert_one(document)
        print('[DBHelper] Document Saved. Id is:', inserted_id)
+    
+    def retrieve(self,condition=None):
+        # result=self.collection.find()
+        condition={'name: Dhruv Jain'}
+        result=self.collection.find(condition)
+        print("[DBHelper] Documents Retrieved, result is: ", result)
+
+        for doc in result:
+            print(doc) 
+    def update(self, condition=None, document_to_update=None):
+        result = self.collection.update_one(
+            condition,
+            {
+                '$set': document_to_update
+            }
+        )
+        print('[DBHelper] Document Updated', result)
+
+
+    def delete(self, condition):
+        result = self.collection.delete_one(condition)
+        print('[DBHelper] Document Deleted', result)
