@@ -44,7 +44,6 @@ Python collections support iteration, but the way elements are traversed depends
 - **Dictionary** – Iterates over keys by default, while values can be accessed using their corresponding keys.
 
 ---
----
 
 ### 3. Generators
 A **Generator** is a special type of function that uses the `yield` keyword to produce values **one at a time** instead of returning them all at once. It pauses execution after each `yield` statement and resumes from the same point when the next value is requested, making it memory efficient.
