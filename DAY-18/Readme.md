@@ -155,7 +155,6 @@ The session also explored several commonly used mathematical operations supporte
 | **Symmetric Difference** | Returns elements present in either set but not both.   |
 | **Update**               | Adds all elements of one set into another.             |
 | **Remove**               | Removes a specified element.                           |
-| **Discard**              | Removes an element without raising an error if absent. |
 | **Pop**                  | Removes an arbitrary element.                          |
 | **Clear**                | Removes all elements from the set.                     |
 
