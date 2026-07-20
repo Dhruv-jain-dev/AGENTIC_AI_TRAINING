@@ -1,4 +1,5 @@
 # 3. Extract Emails
+import re
 text = """
 john@example.com
 admin@finlo.in
